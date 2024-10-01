@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
     <category>
-        <pattern>Job *</pattern>
+        <pattern>WHAT IS YOUR JOB?</pattern>
         <template>I provide guides on different IT careers based on your major.</template>
     </category>
     
     <category>
+        <pattern>JOB*</pattern>
+        <template><srai>WHAT IS YOUR JOB?</srai></template>
+    </category>
+    
+    <category>
+        <pattern>*JOB</pattern>
+        <template><srai>WHAT IS YOUR JOB?</srai></template>
+    </category>
+    
+    <category>
+        <pattern>JOB</pattern>
+        <template><srai>WHAT IS YOUR JOB?</srai></template>
+    </category>
+
+    <category>
         <pattern>*</pattern>
-        <template>I have no answer for thatz.</template>
+        <template>I have no answer for that.</template>
     </category>
 </aiml>
