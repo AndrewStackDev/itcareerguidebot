@@ -6,12 +6,12 @@
     </category>
     
     <category>
-        <pattern>JOB*</pattern>
+        <pattern>JOB *</pattern>
         <template><srai>WHAT IS YOUR JOB?</srai></template>
     </category>
     
     <category>
-        <pattern>*JOB</pattern>
+        <pattern>* JOB</pattern>
         <template><srai>WHAT IS YOUR JOB?</srai></template>
     </category>
     
