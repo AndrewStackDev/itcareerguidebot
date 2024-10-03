@@ -2,22 +2,22 @@
 <aiml>
     <category>
         <pattern>WHAT IS YOUR JOB?</pattern>
-        <template>I provide guides on different IT careers based on your major.</template>
+        <template><srai>JOB</srai></template>
     </category>
     
     <category>
         <pattern>JOB *</pattern>
-        <template><srai>WHAT IS YOUR JOB?</srai></template>
+        <template><srai>JOB</srai></template>
     </category>
     
     <category>
         <pattern>* JOB</pattern>
-        <template><srai>WHAT IS YOUR JOB?</srai></template>
+        <template><srai>JOB</srai></template>
     </category>
     
     <category>
         <pattern>JOB</pattern>
-        <template><srai>WHAT IS YOUR JOB?</srai></template>
+        <template>I provide guides on different IT careers based on your major.</template>
     </category>
 
     <category>
