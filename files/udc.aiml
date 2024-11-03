@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+    
+    <category>
+        <pattern></pattern>
+        <template></template>
+    </category>
+    
     <category>
         <pattern>WHAT IS YOUR JOB?</pattern>
         <template><srai>JOB</srai></template>
@@ -17,11 +23,49 @@
     
     <category>
         <pattern>JOB</pattern>
-        <template>I provide guides on different IT careers based on your major.</template>
+        <template>I provide guides on different IT careers based on computer science major.
+        say "start" for me to provide you with help</template>
     </category>
 
     <category>
         <pattern>*</pattern>
-        <template>I have no answer for that.</template>
+        <template>I have no answer for that Please say "Help" or "Job" for more infomation, or "Start" for me to provide career guide.</template>
     </category>
+    
+    <category>
+        <pattern>START</pattern>
+        <template>Do you major in computer science?
+                <button>
+                    <text>Yes</text>
+                    <postback>I DO MAJOR IN COMPUTER SCIENCE</postback>
+                </button>
+                <button>
+                    <text>No</text>
+                    <postback>I DO NOT MAJOR IN COMPUTER SCIENCE</postback>
+                </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>I DO MAJOR IN COMPUTER SCIENCE</pattern>
+        <template>Here is a small quiz to help you decide what kind of career path you will like. <br/>Do you prefer coordinating with people and solving their indivisual issues or creating ways to Eliminate sources of their problems.
+                <button>
+                    <text>Prefer working with People</text>
+                    <postback>I ENJOY WORKING WITH PEOPLE.</postback>
+                </button>
+                <button>
+                    <text>Prefer working in programs</text>
+                    <postback>I ENJOR WORKING WITH PROGRAM</postback>
+                </button>
+        </template>
+        
+    </category>
+    
+    
+    <category>
+        <pattern>I DO NOT MAJOR IN COMPUTER SCIENCE</pattern>
+        <template>Sorry, I can only provide computer science students with career guide.</template>
+    </category>
+    
 </aiml>
+    
