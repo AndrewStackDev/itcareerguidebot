@@ -90,7 +90,35 @@
         
     </category>    
     
-    
+    <category>
+        <pattern>I ENJOR WORKING WITH PROGRAM</pattern>
+        <template>The most common production careers are web development and mobile app development due to its media's ease of access.<br/>
+        
+        <br/>
+        <link>
+            <text>Click this link to learn more on web developers</text>
+            <url>https://www.comptia.org/content/it-careers-path-roadmap/it-support-specialist</url>
+        </link><br/> 
+        <br/> 
+        The career of an technical sales professionals specialize in the sales and promotion of technological products and services. <br/> 
+        <br/> 
+        <link>
+            <text>Click this link to learn more on technical sales professionals</text>
+            <url>https://www.indeed.com/career-advice/finding-a-job/what-is-technical-sale-rep</url>
+        </link><br/> 
+        <br/> 
+        The managing roles will also require a lot of interpersonal problem solving, such as product managers, tech lead, Production job tites will offen lead to their related managing roles, do you like to know more on the production side?
+                <button>
+                    <text>Check production careers</text>
+                    <postback>I ENJOR WORKING WITH PROGRAM</postback>
+                </button>
+                <button>
+                    <text>Done</text>
+                    <postback>DONE</postback>
+                </button>
+        </template>
+        
+    </category>    
     
     <category>
         <pattern>I DO NOT MAJOR IN COMPUTER SCIENCE</pattern>
