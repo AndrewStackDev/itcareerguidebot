@@ -195,5 +195,12 @@
         <template><srai>Done</srai></template>
     </category>
     
+    <category>
+        <pattern>Tell me what * is</pattern>
+        <template><srai>What is <star/></srai></template>
+    </category>
+    
+    
+    
 </aiml>
     
