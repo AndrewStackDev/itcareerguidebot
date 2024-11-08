@@ -59,7 +59,7 @@
     
     <category>
         <pattern>START</pattern>
-        <template>Do you major in computer science?
+        <template>Do you major in Computer Science?
                 <button>
                     <text>Yes</text>
                     <postback>I DO MAJOR IN COMPUTER SCIENCE</postback>
@@ -150,7 +150,7 @@
             <url>https://www.ibm.com/topics/mobile-application-development</url>
         </link><br/> 
         <br/> 
-        Some careers, such as PC software developers, server engineers, and game developers, are less common but still provide many opportunities.
+        Some careers, such as PC software developers, server engineers, and game developers, are less common but still provide many opportunities.<br/>
         <br/> 
         <link>
             <text>More information on server engineers.</text>
@@ -216,8 +216,59 @@
         input "start" if you want to start a career quiz.</template>
     </category>
     
+    <category>
+        <pattern>FRONT END WEB DEVELOPER</pattern>
+        <template><srai>WEB DEVELOPER</srai></template>
+    </category>
     
+    <category>
+        <pattern>BACK END WEB DEVELOPER</pattern>
+        <template><srai>WEB DEVELOPER</srai></template>
+    </category>
     
+    <category>
+        <pattern>FULL STACK WEB DEVELOPER</pattern>
+        <template><srai>WEB DEVELOPER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* WEB DEVELOPER</pattern>
+        <template><srai>WEB DEVELOPER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>* WEB DEVELOPER *</pattern>
+        <template><srai>WEB DEVELOPER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>WEB DEVELOPER *</pattern>
+        <template><srai>WEB DEVELOPER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>WEB DEVELOPER</pattern>
+        <template>The core responsibility of a web developer is often split into front-end and back-end developing roles.<br/>
+        The front-end web developers lean more toward art and design, while the back-end web developers build API and lean toward logic.<br/>
+        Full-stack web developers are also standard; they are familiar with and perform both roles.<br/>
+        <br/>
+        <link>
+            <text>More information on web developers.</text>
+            <url>https://www.computerscience.org/careers/web-developer/</url>
+        </link><br/> 
+        <br/> 
+        </template>
+    </category>
+    
+    <category>
+        <pattern>MOBILE APP DEVELOPER</pattern>
+        <template><srai>MOBILE APPLICATION DEVELOPER</srai></template>
+    </category>
+    
+    <category>
+        <pattern>MOBILE APPLICATION DEVELOPER</pattern>
+        <template></template>
+    </category>
     
 </aiml>
     
