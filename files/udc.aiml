@@ -200,6 +200,23 @@
         <template><srai>What is <star/></srai></template>
     </category>
     
+    <category>
+        <pattern>What is *</pattern>
+        <template><srai><star/></srai></template>
+    </category>
+    
+    <category>
+        <pattern>CS</pattern>
+        <template><srai>COMPUTER SCIENCE</srai></template>
+    </category>
+    
+    <category>
+        <pattern>COMPUTER SCIENCE</pattern>
+        <template>Computer science is the study of computation, information, and automation. If you major in Computer Science, you will have a broad range of possible careers; <br/>
+        input "start" if you want to start a career quiz.</template>
+    </category>
+    
+    
     
     
 </aiml>
