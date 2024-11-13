@@ -306,6 +306,11 @@
     </category>
     
     <category>
+        <pattern>TECHNICAL SALES REP</pattern>
+        <template><srai>TECHNICAL SALES REPRESENTATIVE</srai></template>
+    </category>
+    
+    <category>
         <pattern>WEB DEVELOPER</pattern>
         <template>The core responsibility of a web developer is often split into front-end and back-end developing roles.<br/>
         The front-end web developers lean more toward art and design, while the back-end web developers build API and lean toward logic.<br/>
@@ -328,14 +333,14 @@
         </link>
         </template>
     </category>
-
+    
     <category>
         <pattern>TECHNICAL SALES REPRESENTATIVE</pattern>
-        <template>Mobile app Developers create mobile applications and often focus on Android or Apple products; if the developer's primary coding language is Java, Java's virtual machine can run on both operating systems. <br/> 
+        <template>The career of an technical sales professionals specialize in the sales and promotion of technological products and services. <br/> 
         <br/> 
         <link>
-            <text>More information on Mobile app developers.</text>
-            <url>https://www.ibm.com/topics/mobile-application-development</url>
+            <text>Click this link to learn more on technical sales professionals</text>
+            <url>https://www.indeed.com/career-advice/finding-a-job/what-is-technical-sale-rep</url>
         </link>
         </template>
     </category>
