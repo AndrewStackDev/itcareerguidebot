@@ -119,14 +119,68 @@
     
     <category>
         <pattern>HELP ME PICK PEOPLE CAREERS</pattern>
-        <template>Here is a small quiz to help you decide what kind of career path you will like. <br/>Do you prefer coordinating with people and solving their indivisual issues or creating ways to Eliminate sources of their problems.
+        <template>Do you prefer a more competitive career that might pay you commission on performance, or do you prefer a more stable job which pay less but is relaxing most of the time.
                 <button>
-                    <text>Prefer working with People</text>
-                    <postback>I ENJOY WORKING WITH PEOPLE</postback>
+                    <text>Competitive but pays more</text>
+                    <postback>ＩLIKE TECH SALES OR LEADERSHIP</postback>
                 </button>
                 <button>
-                    <text>Prefer working in programs</text>
+                    <text>Stable but pays less</text>
+                    <postback>I LIKE IT SUPPORT</postback>
+                </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ＩLIKE TECH SALES OR LEADERSHIP</pattern>
+        <template>Do you prefer explaining existing technical solutions to others' problems or inventing technical solutions for others?
+                <button>
+                    <text>Explaining</text>
+                    <postback>ＩLIKE TECH SALES</postback>
+                </button>
+                <button>
+                    <text>Inventing</text>
+                    <postback>I LIKE IT LEADERSHIP</postback>
+                </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ＩLIKE TECH SALES</pattern>
+        <template>I believe the career of Technical Sales Representative fits your answers the most.<br/> 
+        <link>
+            <text>Click this link to learn more on technical sales professionals</text>
+            <url>https://www.indeed.com/career-advice/finding-a-job/what-is-technical-sale-rep</url>
+        </link><br/> 
+                <button>
+                    <text>Return to the piror question</text>
+                    <postback>ＩLIKE TECH SALES OR LEADERSHIP</postback>
+                </button>
+                <button>
+                    <text>Thank you</text>
+                    <postback>DONE</postback>
+                </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>I LIKE IT LEADERSHIP</pattern>
+        <template>I believe the career of Technical Leadership, or product manager fits you the best, these positions are commonly filled by employees with prior development experience. <br/>
+        <link>
+            <text>Click this link to learn more on Product Manager</text>
+            <url>https://www.atlassian.com/agile/product-management/product-manager</url>
+        </link><br/> 
+                <button>
+                    <text>Return to the piror question</text>
+                    <postback>ＩLIKE TECH SALES OR LEADERSHIP</postback>
+                </button>
+                <button>
+                    <text>Details on production careers</text>
                     <postback>I ENJOR WORKING WITH PROGRAM</postback>
+                </button>
+                <button>
+                    <text>Thank you</text>
+                    <postback>DONE</postback>
                 </button>
         </template>
     </category>
@@ -255,6 +309,18 @@
         <link>
             <text>More information on web developers.</text>
             <url>https://www.computerscience.org/careers/web-developer/</url>
+        </link><br/> 
+        <br/> 
+        </template>
+    </category>
+    
+    <category>
+        <pattern>MOBILE APP DEVELOPER</pattern>
+        <template>Mobile app Developers create mobile applications and often focus on Android or Apple products; if the developer's primary coding language is Java, Java's virtual machine can run on both operating systems. <br/> 
+        <br/> 
+        <link>
+            <text>More information on Mobile app developers.</text>
+            <url>https://www.ibm.com/topics/mobile-application-development</url>
         </link><br/> 
         <br/> 
         </template>
