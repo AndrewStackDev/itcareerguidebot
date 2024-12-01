@@ -75,7 +75,7 @@
         <pattern>I DO MAJOR IN COMPUTER SCIENCE</pattern>
         <template>Here is a small quiz to help you decide what kind of career path you will like. <br/>Do you prefer coordinating with people and solving their indivisual issues or creating ways to Eliminate sources of their problems.
                 <button>
-                    <text>Prefer working with People</text>
+                    <text>Prefer working with people</text>
                     <postback>I ENJOY WORKING WITH PEOPLE</postback>
                 </button>
                 <button>
@@ -152,10 +152,29 @@
         <link>
             <text>Click this link to learn more on technical sales professionals</text>
             <url>https://www.indeed.com/career-advice/finding-a-job/what-is-technical-sale-rep</url>
-        </link><br/> 
+        </link> 
                 <button>
                     <text>Return to the piror question</text>
                     <postback>ＩLIKE TECH SALES OR LEADERSHIP</postback>
+                </button>
+                <button>
+                    <text>Thank you</text>
+                    <postback>DONE</postback>
+                </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>I LIKE IT SUPPORT</pattern>
+        <template>I believe the career of IT support specialists fits your answers the most.<br/> 
+        <br/>
+        <link>
+            <text>Click this link to learn more on IT support specialists</text>
+            <url>https://www.comptia.org/content/it-careers-path-roadmap/it-support-specialist</url>
+        </link>
+                <button>
+                    <text>Return to the piror question</text>
+                    <postback>HELP ME PICK PEOPLE CAREERS</postback>
                 </button>
                 <button>
                     <text>Thank you</text>
@@ -219,6 +238,10 @@
                 <button>
                     <text>Check other careers which put emphasis on people skills</text>
                     <postback>I ENJOY WORKING WITH PEOPLE</postback>
+                </button>
+                <button>
+                    <text>I like these opportunities but am still determining which one fits me best.</text>
+                    <postback>HELP ME PICK PRODUCTION CAREERS</postback>
                 </button>
                 <button>
                     <text>Thank you</text>
@@ -345,7 +368,87 @@
         </template>
     </category>
 
+    <category>
+        <pattern>IT SUPPORT SPECIALIST</pattern>
+        <template>IT support specialists work with hardware and software, maintain company IT equipment, and solve issues related to those equipment. <br/> 
+        <br/>
+        <link>
+            <text>Click this link to learn more on IT support specialists</text>
+            <url>https://www.comptia.org/content/it-careers-path-roadmap/it-support-specialist</url>
+        </link><br/> 
+        </template>
+    </category>
     
+    <category>
+        <pattern>GAME DEVELOPER</pattern>
+        <template>Game developers work with a in house or outsourced game engine daily, realising game designs, mechanisims and user interfaces. <br/> 
+        They might also work as a techinical generalist, which might also work with audio and spcial effects. <br/> 
+        <br/>
+        <link>
+            <text>More information on game developers.</text>
+            <url>https://www.coursera.org/articles/game-developer</url>
+        </link> 
+        </template>
+    </category>
     
+    <category>
+        <pattern>HELP ME PICK PRODUCTION CAREERS</pattern>
+        <template>Do you prefer maintaining and updating existing infrastructures, or do you like creating new ones?
+                <button>
+                    <text>Maintaining and updating existing infrastructures</text>
+                    <postback>ＩLIKE MAINTAINING</postback>
+                </button>
+                <button>
+                    <text>Logic creativity</text>
+                    <postback>I LIKE CREATIVE</postback>
+                </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ＩLIKE MAINTAINING</pattern>
+        <template>I believe web development is best suited for you. In this field, developers work on the existing web dev infrastructure every day.<br/>
+                    
+                    If you like working with art and making web pages look better, I recommend you work on the front end.<br/>
+                    
+                    If you like to work with logic, the back end best suits you.<br/>
+                    
+                    If you prefer a variety of tasks in your career, full-stack development will be the most stimulating.        <br/>
+        <link>
+            <text>More information on web developers.</text>
+            <url>https://www.computerscience.org/careers/web-developer/</url>
+        </link>
+                <button>
+                    <text>Return to the piror question</text>
+                    <postback>HELP ME PICK PRODUCTION CAREERS</postback>
+                </button>
+                <button>
+                    <text>Details on careers that isn't production</text>
+                    <postback>I ENJOR WORKING WITH PEOPLE</postback>
+                </button>
+                <button>
+                    <text>Thank you</text>
+                    <postback>DONE</postback>
+                </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ＩLIKE CREATIVE</pattern>
+        <template>Based on your previous answers, here is the last question. Do you like working on developing video games, or do you prefer creating mobile apps?<br/>
+                <button>
+                    <text>Return to the piror question</text>
+                    <postback>HELP ME PICK PRODUCTION CAREERS</postback>
+                </button>
+                <button>
+                    <text>Game Development</text>
+                    <postback>I ENJOR WORKING WITH PEOPLE</postback>
+                </button>
+                <button>
+                    <text>Mobile Application Development</text>
+                    <postback>MOBILE APPLICATION DEVELOPER</postback>
+                </button>
+        </template>
+    </category>
 </aiml>
     
